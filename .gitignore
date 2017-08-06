@@ -4,3 +4,7 @@
 Debug/
 
 jas\.txt
+
+cmake-build-Debug/
+
+cmake-build-Release/
