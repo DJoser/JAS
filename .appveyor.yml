@@ -38,7 +38,7 @@ build_script:
   - cmake .. -GNinja
   - ninja
   - cd ..
-  - 7z a jas.zip build\bin\*.*
+  - 7z a jas.zip %APPVEYOR_BUILD_FOLDER%\build\bin
 
 artifacts:
   - path: jas.zip
