@@ -37,4 +37,9 @@ build_script:
   - cd build
   - cmake .. -GNinja
   - ninja
-  - bin
+  - cd ..
+  - 7z a jas.zip build\bin\*.*
+
+artifacts:
+  - path: jas.zip
+    name: Jas
