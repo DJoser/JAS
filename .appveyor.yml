@@ -35,6 +35,6 @@ before_build:
 build_script:
   - mkdir build
   - cd build
-  - cmake .. -GNinja -DCMAKE_CXX_COMPILER=clang-cl
+  - cmake .. -GNinja
   - ninja
-#  - cmake --build . --target check
+  - bin
